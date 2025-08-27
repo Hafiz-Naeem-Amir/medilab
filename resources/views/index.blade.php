@@ -9,85 +9,11 @@
 
 </head>
 <body>
-    <div class="container-fluid bg-dark py-2 text-light">
-        <header class="text-center">
-            <h1 class="display-6">
-                Welcome to our page
-            </h1>
-        </header>
-       <a href="{{ route('dashboard.name') }}" class="btn btn-primary">Template</a>
-
+    <div class="container-fluid bg- py-2 text-light">
+        <div class="conatiner">
+        <a href="{{ route('dashboard.name') }}" class="btn btn-primary">Template</a>
+        </div>
     </div>
-  <section class="container my-2 bg-dark w-5 text-light ">
-    <form class="row g-2 ">
-         <div class="col-md-4">
-    <label for="validationCustom01" class="form-label">First name</label>
-    <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
-    <div class="valid-feedback">
-      Looks good!
-    </div>
-  </div>
-  <div class="col-md-4">
-    <label for="validationCustom02" class="form-label">Last name</label>
-    <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
-    <div class="valid-feedback">
-      Looks good!
-    </div>
-  </div>
-  <div class="col-md-4">
-    <label for="validationCustomUsername" class="form-label">Username</label>
-    <div class="input-group has-validation">
-      <span class="input-group-text" id="inputGroupPrepend">@</span>
-      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-      <div class="invalid-feedback">
-        Please choose a username.
-      </div>
-    </div>
-  </div>
-  <div class="col-md-6">
-    <label for="inputEmail4" class="form-label">Email</label>
-    <input type="email" class="form-control" id="inputEmail4">
-  </div>
-  <div class="col-md-6">
-    <label for="inputPassword4" class="form-label">Password</label>
-    <input type="password" class="form-control" id="inputPassword4">
-  </div>
-  <div class="col-12">
-    <label for="inputAddress" class="form-label">Address</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-  </div>
-  <div class="col-12">
-    <label for="inputAddress2" class="form-label">Address 2</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-  </div>
-  <div class="col-md-6">
-    <label for="inputCity" class="form-label">City</label>
-    <input type="text" class="form-control" id="inputCity">
-  </div>
-  <div class="col-md-4">
-    <label for="inputState" class="form-label">State</label>
-    <select id="inputState" class="form-select">
-      <option selected>Choose...</option>
-      <option>...</option>
-    </select>
-  </div>
-  <div class="col-md-2">
-    <label for="inputZip" class="form-label">Zip</label>
-    <input type="text" class="form-control" id="inputZip">
-  </div>
-  <div class="col-12">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        Check me out
-      </label>
-    </div>
-  </div>
-  <div class="col-12">
-    <button type="submit" class="btn btn-primary">Sign in</button>
-  </div>
-</form>
-  </section>
     <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 </body>
 </html>
