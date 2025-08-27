@@ -1,0 +1,134 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  /* box-sizing: border-box; */
+}
+.a_underline:hover{
+    text-decoration: underline !important;
+}
+.navbar-brand{
+    color: #2C4964;
+    text-size-adjust: 1rem;
+}
+.nav-item a{
+    color: #2C4964;
+}
+/* hero section  */
+.hero_section {
+    background: url('/images/hero-bg.jpg');
+    background-size: cover;
+    /* background-position:end; */
+}
+.hero_section h1{
+    color: #2C4964;
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+}
+.hero_section p{
+    text-align: center;
+    color: #2C4964;
+    font-size: 20px;
+}
+/* hero right side card */
+/* transition-timing-function: ease-in-out; */
+.hero-right-card{ background-color: aqua;
+                transition: all .5s ease-in-out;
+}
+.hero-right-card p{
+    font-size: 16px;
+    padding-top: 10px;
+    border-radius: 4px;
+
+}
+/* hero left side card  */
+.hero_card{
+    max-height: 500px;
+}
+.hero_card h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0 20px 0;
+}
+.hero_card p{
+    font-size: 15px;
+}
+
+.status_section{
+ background-color: rgb(229, 236, 235) !important;
+    height: 15rem;
+
+}
+.status_item{
+    width: 20%;
+     margin-top: 5rem;
+    /* margin: 0px 10px 0px 10px; */
+margin-left: 30px;
+}
+/* services section  */
+.icon {
+  width: 60px;                 /* square size */
+  height: 60px;
+  padding-right: 12px;
+  display: flex;               /* flexbox ban gaya */
+  align-items: center;         /* vertical center */
+  justify-content: center;     /* horizontal center */
+  transition: all 0.3s ease;
+  margin: 0 auto;              /* center horizontally in parent */
+}
+.service-div:hover {
+  background-color: blue;
+  color: white;
+}
+
+/* icon background & color on hover */
+.service-div:hover .icon {
+  background-color: white;
+}
+.service-div:hover .icon i {
+  color: blue; /* icon ka andar ka rang */
+}
+
+/* heading */
+.service-div h3 {
+  color: black;
+  transition: all 0.3s ease;
+}
+.service-div:hover h3 {
+  color: white;
+}
+/* appointmet section */
+.appointment{
+    text-align: center;
+}
+/* departments section */
+.linklist a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s;
+}
+
+.linklist a:hover {
+  color: blue;
+}
+/* accordian section */
+ .accordian_section{
+   background-color: #F1F7FC !important;
+ }
+ /* contact section  */
+   .info-box {
+       display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .info-box h4 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .info-box p {
+      margin: 0;
+      color: #555;
+    }

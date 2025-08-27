@@ -1,0 +1,28 @@
+ @media screen and (min-width:200px) and (max-width:520px) {
+    /* top bar */
+    .top_bar i ,a{
+         font-size: 15px;
+    }
+    /* dr section */
+    .dr_section{
+        padding-top: -20px;
+    }
+.dr_imags {
+    max-width:30%;
+    height: auto;
+}
+.hero_section .h1 {
+    color: #2C4964;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+.dr_img{
+padding-top: 25px;
+}
+/* test img */
+.carousel-item .test-img{
+    /* height: 50px;
+    width: 50px; */
+}
+ }
