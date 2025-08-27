@@ -28,8 +28,6 @@
 
 ### 🔹 POS System (PHP | Laravel)  
 - Complete POS system with **billing, inventory, and reporting**  
-- Integrated with **React frontend** using RESTful APIs  
-
 ---
 
 ## 📈 GitHub Stats  
