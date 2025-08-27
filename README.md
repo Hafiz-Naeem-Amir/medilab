@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Hafiz Naeem Amir  
 
-🎓 **BSIT Graduate** | 💻 **Software Developer (Laravel Developer)** | ✈️ Aspiring **Emirates Airline Candidate**  
+🎓 **BSIT Graduate** | 💻 **Software Developer (Laravel Developer)** |
 
 ---
 
@@ -28,6 +28,8 @@
 
 ### 🔹 POS System (PHP | Laravel)  
 - Complete POS system with **billing, inventory, and reporting**  
+- Integrated with **React frontend** using RESTful APIs  
+
 ---
 
 ## 📈 GitHub Stats  
