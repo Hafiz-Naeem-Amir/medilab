@@ -1,15 +1,19 @@
 <?php
-
+use App\Http\Controllers\SettingController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('index');   // ye aapki form wali file hogi
+    return view('index'); // ye dusra page hoga (temkhk wala)
 });
+// Route::get('/deshboard', function () {
+//     return view('admin');
+// })->name('admin.open');
 
+Route::view('/dashboard', 'admin')->name('admin.open');
 
-Route::get('/dashboard', function () {
-    return view('dashboard'); // ye dusra page hoga (temkhk wala)
-})->name('dashboard.name');
-Route::get('/Adminpannel', function () {
-    return view('admin.admin_pannel');
-})->name('admin_pannel.name');
+Route::get('/setting', function () {
+    return view('setting');
+})->name('setting.open');
+
+// Route::get('/setting', [SettingController::class, 'create'])->name('settings.index');
+Route::post('/submit', [SettingController::class, 'store'])->name('settings.submit');
