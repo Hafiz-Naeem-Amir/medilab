@@ -2,63 +2,60 @@
 
 
 {{-- hero section --}}
-<section class="hero_section text-white py-5" id="home">
-  <h1 class="text-center h1">WELCOME TO MEDILAB</h1>
-  <p class="text-center">We are team of talented designers making websites with Bootstrap</p>
-
-  <div class="container pt-3">
-    <div class="row mt-3 g-5">
+<section class="hero_section text-white py-5" id="home" >
+  <div class="container">
+    <div class="row align-items-center g-5">
 
       <!-- Left Side (col-4) -->
-      <div class="hero-right-card col-lg-4 col-md-12 py-5 bg-primary text-white text-center rounded">
-        <div class="d-flex flex-column justify-content-start align-items-start">
-          <h2>Why Choose Medilab?</h2>
+      <div class="hero-right-card col-lg-4 col-md-12 bg-primary text-white text-center rounded p-4 h-100 d-flex flex-column justify-content-between">
+        <div>
+          <h2 class="mb-3">Why Choose Medilab?</h2>
           <p class="text-start text-white">
             Medilab is committed to providing reliable medical laboratory services with
             advanced technology and accurate diagnostics. Our team ensures quality testing,
             timely results, and trusted healthcare support for patients and professionals.
             advanced technology and accurate diagnostics. Our team ensures quality testing,
-            timely results.
+            timely results, and trusted healthcare support for patients and professionals.
           </p>
         </div>
-        <a href="#" class="btn btn-light text-primary fw-bold mt-3">
+        <a href="#" class="btn btn-light text-primary fw-bold mt-3 align-self-start">
           Learn More <i class="fa-solid fa-angle-right"></i>
         </a>
       </div>
 
       <!-- Right Side (col-8) -->
-      <div class="col-lg-8 col-md-12 position-relative pt-5">
-        <div class="row g-3">
+      <div class="col-lg-8 col-md-12">
+        <div class="row g-4">
 
           <!-- Card 1 -->
-            <div class="col-lg-4 col-md-6 col-sm-12 position-relative z-3 ">
-                <div class="hero_card text-center bg- py-4 px-5 rounded  h-100 d-flex flex-column justify-content-center align-items-center" style="background-color: rgba(245, 245, 245, 0.8);" >
-                <i class="fas fa-clipboard fa-2x text-primary"></i>
-                <h4 class="text-dark">Corporis voluptates officia eiusmod</h4>
-                <p class="text-dark">
-                    Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip
-                </p>
-                </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="hero_card text-center bg-white py-4 px-3 rounded h-100 d-flex flex-column justify-content-center align-items-center shadow-sm">
+              <i class="fas fa-clipboard fa-2x text-primary mb-3"></i>
+              <h4 class="text-dark">Advanced Diagnostics</h4>
+              <p class="text-dark">
+                Our laboratory provides accurate and timely diagnostic reports using advanced equipment, helping doctors.
+              </p>
             </div>
+          </div>
 
           <!-- Card 2 -->
           <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="hero_card text-center bg-white py-4 px-5 rounded h-100 d-flex flex-column justify-content-center align-items-center">
-              <i class="fas fa-briefcase fa-2x text-primary"></i>
-              <h4 class="text-dark">Labore consequatur incidid dolore</h4>
+            <div class="hero_card text-center bg-white py-4 px-3 rounded h-100 d-flex flex-column justify-content-center align-items-center shadow-sm">
+              <i class="fas fa-briefcase fa-2x text-primary mb-3"></i>
+              <h4 class="text-dark">Research & Testing</h4>
               <p class="text-dark">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                Our team conducts reliable laboratory testing and medical research, ensuring high standards of accuracy, safety, and scientific validation.
               </p>
             </div>
           </div>
 
           <!-- Card 3 -->
           <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="hero_card text-center bg-white py-4 px-5 rounded h-100 d-flex flex-column justify-content-center align-items-center">
-              <i class="fas fa-gem fa-2x text-primary"></i>
-              <h4 class="text-dark">Ullamco laboris ladore pan</h4>
+            <div class="hero_card text-center bg-white py-4 px-3 rounded h-100 d-flex flex-column justify-content-center align-items-center shadow-sm">
+              <i class="fas fa-gem fa-2x text-primary mb-3"></i>
+              <h4 class="text-dark">Quality Assurance</h4>
               <p class="text-dark">
-                Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere
+                Every test undergoes strict quality checks in our lab, guaranteeing reliable results that support effective treatment and patient care.
               </p>
             </div>
           </div>
@@ -76,41 +73,42 @@
     <div class="row">
 
       <!-- Left side image -->
-      <div class="col-lg-6 col-md-12 mb-3">
-        <img src="{{ asset('images/about.jpg') }}" class="img-fluid   rounded" alt="About">
+      <div class="col-lg-6 col-md-12 mb-3 pt-5">
+        <img src="{{ asset('images/about.jpg') }}" class="img-fluid rounded" alt="About">
       </div>
 
       <!-- Right side text -->
       <div class="col-lg-6 col-md-12">
         <h1>About Us</h1>
         <p>
-          Dolor iure expedita id fuga asperiores qui sunt consequatur minima.
-          Quidem voluptas deleniti. Sit quia molestiae quia quas qui magnam itaque veritatis dolores.
-          Corrupti totam ut eius incidunt reiciendis veritatis asperiores placeat.
+          Our hospital is committed to delivering world-class healthcare with modern facilities,
+          advanced laboratories, and a team of highly qualified specialists. We combine medical
+          expertise with compassion to ensure every patient receives the best possible care.
+          From preventive health checkups to complex treatments.
         </p>
 
         <!-- Icon Rows Start -->
         <div class="row d-flex align-items-center mb-3">
           <div class="col-auto"><i class="fa-solid fa-heart-pulse fa-2x text-primary"></i></div>
           <div class="col">
-            <h4>Ullamco laboris nisi ut aliquip consequat</h4>
-            <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+            <h4>Comprehensive Patient Care</h4>
+            <p>We provide personalized treatment plans ensuring safety, comfort, and long-term wellness for every patient.</p>
           </div>
         </div>
 
         <div class="row d-flex align-items-center mb-3">
           <div class="col-auto"><i class="fa-solid fa-vial-circle-check fa-2x text-primary"></i></div>
           <div class="col">
-            <h4>Ullamco laboris nisi ut aliquip consequat</h4>
-            <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+            <h4>Advanced Laboratory Services</h4>
+            <p>Equipped with modern diagnostic tools, our labs guarantee accurate test results and timely reporting.</p>
           </div>
         </div>
 
         <div class="row d-flex align-items-center mb-3">
           <div class="col-auto"><i class="fa-solid fa-star fa-2x text-primary"></i></div>
           <div class="col">
-            <h4>Ullamco laboris nisi ut aliquip consequat</h4>
-            <p>Magni facilis facilis repellendus cum excepturi quaerat libre trade</p>
+            <h4>Excellence & Trust</h4>
+            <p>Our commitment to medical excellence and ethical practices has earned us the trust of thousands of patients.</p>
           </div>
         </div>
         <!-- Icon Rows End -->
@@ -120,6 +118,7 @@
     </div>
   </div>
 </section>
+>
 <!-- Stats Section -->
 <section class="py-5" style="background: linear-gradient(135deg, #f0f4ff, #d9e6ff);">
   <div class="container text-center">
@@ -230,8 +229,8 @@
       <!-- Service 6 -->
       <div class="col-lg-4 col-md-6">
         <div class="service-card p-4 bg-white shadow rounded h-100">
-          <div class="icon-box mx-auto mb-3 ">
-            <i class="fas fa-stethoscope fa-2x text-primary icon"></i>
+          <div class="icon-box mx-auto mb-3">
+            <i class="fas fa-dna fa-2x text-primary"></i>
           </div>
           <h3 class="h5 fw-bold">General Checkup</h3>
           <p class="text-muted">Complete body checkup packages to monitor health and prevent future risks.</p>
@@ -309,39 +308,44 @@
   </div>
 </section>
 {{-- Departments section --}}
-<section>
+<section class="department-section">
     <div class="container-fluid" id="department">
         <div class="container py-5">
-            <h1 class="text-center">Departments</h1>
-            <p class="text-center">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <h1 class="text-center text-white">Departments</h1>
+            <p class="text-center text-light">
+              Our medical departments are dedicated to providing specialized care with modern facilities and expert doctors.
+              Each unit is designed to meet patient needs through advanced diagnostics, compassionate treatment, and research-driven practices.
+            </p>
             <div class="row g-4 py-5">
                 <div class="col-lg-3 col-mb-12 col-sm-12">
-                <div class="linklist py-5">
-                <a href="">Cardiology</a>
-                <a href="">Neurology</a>
-                <a href="">Hepatology</a>
-                <a href="">Pediatrics</a>
-                <a href="">Eye Care</a>
+                  <div class="linklist py-5">
+                    <a href="">Cardiology</a>
+                    <a href="">Neurology</a>
+                    <a href="">Hepatology</a>
+                    <a href="">Pediatrics</a>
+                    <a href="">Eye Care</a>
+                  </div>
                 </div>
-                </div>
-                <div class="col-lg-6 col-mb-12 col-sm-12">
-               <h2 class="py-1">Cardiology</h2>
-               <p>Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka <br>
-                <br>
-                 Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint.
-                 Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui.
-                 Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat
-                  quos qui similique accusamus nostrum rem vero</p>
+                <div class="col-lg-6 col-mb-12 col-sm-12 text-white">
+                   <h2 class="py-1">Cardiology</h2>
+                   <p>
+                      Our Cardiology Department is equipped with state-of-the-art laboratories and modern diagnostic tools
+                      to ensure accurate and timely detection of heart-related conditions. From routine checkups and ECG
+                      monitoring to advanced procedures and rehabilitation programs, we provide complete cardiac care under
+                      the supervision of highly qualified specialists. Our team focuses on early prevention, lifestyle guidance,
+                      and personalized treatment plans to improve heart health and enhance patients’ quality of life.
+                   </p>
                 </div>
                 <div class="col-lg-3 col-mb-12 col-sm-12">
                   <div>
-                    <img src="{{ asset('images/departments-1.jpg') }}" alt="" class="img-fluid rounded">
+                    <img src="{{ asset('images/departments-1.jpg') }}" alt="" class="img-fluid rounded shadow-lg">
                   </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 {{-- doctor section  --}}
 <section>
   <div class="container-fluid py-5" id="doctors">
@@ -551,11 +555,19 @@
 {{-- Testimonials section --}}
 <section>
   <div class="container-fluid">
-    <div class="container py-5  d-flex justify-contenet-center">
+    <div class="container py-5 d-flex justify-contenet-center">
       <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12">
           <h2>Testimonials</h2>
-          <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+            <p>
+                Our patients trust us for exceptional healthcare services, combining
+                professional expertise with compassionate care. Here’s what some of them have
+                to say about their experiences with our dedicated team of doctors. We believe
+                that quality healthcare goes beyond just treatment — it is about listening to
+                patients, understanding their concerns, and guiding them toward better health
+                with empathy and commitment.
+            </p>
+
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
           <div id="doctorCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -568,20 +580,25 @@
             </div>
 
             <!-- Carousel Inner -->
-            <div class="carousel-inner">s
+            <div class="carousel-inner">
+
               <!-- Slide 1 -->
               <div class="carousel-item active">
                 <div class="card mb-5 shadow-sm">
                   <div class="row g-0">
                     <div class="col-md-4">
-                      <img src="{{ asset('images/doctors/doctors-3.jpg') }}" class="img-fluid test-img w-75 mt-4  ms-3 rounded-circle" alt="Doctor Image">
+                      <img src="{{ asset('images/doctors/doctors-3.jpg') }}" class="img-fluid test-img w-75 mt-4 ms-3 rounded-circle" alt="Doctor Image">
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
-                        <h5 class="card-title">Saul Goodman</h5>
+                        <h5 class="card-title">Dr. Sarah Mitchell</h5>
                         <h6 class="text-muted">Cardiologist</h6>
-                        <p class="card-text">Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
-                        <p class="card-text"><small class="text-muted">Last updated 20 mins ago</small></p>
+                        <p class="card-text">
+                          Dr. Sarah’s detailed approach and genuine concern for her patients
+                          gave me the confidence I needed during a difficult time. She goes
+                          above and beyond to ensure quality care.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Last updated 15 mins ago</small></p>
                         <div class="mt-3">
                           <a href="#" class="text-primary me-3"><i class="fab fa-facebook-f fa-lg"></i></a>
                           <a href="#" class="text-info me-3"><i class="fab fa-twitter fa-lg"></i></a>
@@ -603,10 +620,14 @@
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
-                        <h5 class="card-title">Saul Goodman</h5>
-                        <h6 class="text-muted">Cardiologist</h6>
-                        <p class="card-text">Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
-                        <p class="card-text"><small class="text-muted">Last updated 20 mins ago</small></p>
+                        <h5 class="card-title">Dr. James Carter</h5>
+                        <h6 class="text-muted">Neurologist</h6>
+                        <p class="card-text">
+                          The level of professionalism and empathy Dr. Carter showed was
+                          outstanding. His ability to explain complex medical conditions in
+                          simple terms made me feel safe and informed.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Last updated 30 mins ago</small></p>
                         <div class="mt-3">
                           <a href="#" class="text-primary me-3"><i class="fab fa-facebook-f fa-lg"></i></a>
                           <a href="#" class="text-info me-3"><i class="fab fa-twitter fa-lg"></i></a>
@@ -618,6 +639,7 @@
                   </div>
                 </div>
               </div>
+
               <!-- Slide 3 -->
               <div class="carousel-item">
                 <div class="card mb-4 shadow-sm">
@@ -627,10 +649,14 @@
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
-                        <h5 class="card-title">Saul Goodman</h5>
-                        <h6 class="text-muted">Cardiologist</h6>
-                        <p class="card-text">Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
-                        <p class="card-text"><small class="text-muted">Last updated 20 mins ago</small></p>
+                        <h5 class="card-title">Dr. Emily Johnson</h5>
+                        <h6 class="text-muted">Dermatologist</h6>
+                        <p class="card-text">
+                          Dr. Emily’s caring attitude and expertise made my treatment smooth
+                          and stress-free. I appreciate the time she took to answer all my
+                          questions patiently and thoroughly.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Last updated 45 mins ago</small></p>
                         <div class="mt-3">
                           <a href="#" class="text-primary me-3"><i class="fab fa-facebook-f fa-lg"></i></a>
                           <a href="#" class="text-info me-3"><i class="fab fa-twitter fa-lg"></i></a>
@@ -651,6 +677,7 @@
     </div>
   </div>
 </section>
+
 
 {{-- imag gallery section  --}}
 <section>

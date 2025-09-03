@@ -19,6 +19,10 @@ body {
 }
 
 /* Hero section */
+.h_card:hover{
+    transform: scaleY(-10px);
+    background-color: #000;
+}
 .hero_section {
   background: url('/images/hero-bg.jpg') no-repeat center center;
   background-size: cover;
@@ -120,6 +124,26 @@ body {
 }
 .service-div:hover .icon i {
   color: #fff;
+}
+
+.department-section {
+  background: linear-gradient(rgba(0, 123, 255, 0.7), rgba(0, 123, 255, 0.7)),
+              url("{{ asset('images/medical-bg.jpg') }}") no-repeat center center/cover;
+  color: #fff;
+}
+
+.department-section .linklist a {
+  display: block;
+  margin: 8px 0;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.department-section .linklist a:hover {
+  color: #ffd700;
+  padding-left: 5px;
 }
 
 /* Service heading */
