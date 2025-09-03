@@ -79,7 +79,7 @@
              <!-- Site Description -->
             <div class="col-md-12 mb-3">
                  <label for="site-des">Description</label>
-                <textarea name="site_description" class="form-control" rows="2" placeholder="Site Description" required></textarea>
+                <textarea name="site_description" class="form-control" rows="5" placeholder="Site Description" required></textarea>
             </div>
 
         <!-- Submit Button -->

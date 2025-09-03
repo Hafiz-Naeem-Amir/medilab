@@ -2,21 +2,24 @@
 
 
 {{-- hero section --}}
-<section class="hero_section text-white py-5">
+<section class="hero_section text-white py-5" id="home">
   <h1 class="text-center h1">WELCOME TO MEDILAB</h1>
-  <p>We are team of talented designers making websites with Bootstrap</p>
-  <div class="container">
-    <div class="row mt-3 g-5  ">
+  <p class="text-center">We are team of talented designers making websites with Bootstrap</p>
+
+  <div class="container pt-3">
+    <div class="row mt-3 g-5">
+
       <!-- Left Side (col-4) -->
-      <div class="hero-right-card col-lg-4 col-md-12    py-5  bg-primary text-white text-center  rounded ">
-        <div class=" d-flex flex-column justify-content-start align-items-start">
-            <h2>Why Choose Medilab?</h2>
-        <p class="text-start text-white">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute
-          irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos.
-          Autem tempore quibusdam vel necessitatibus optio ad corporis.
-        </p>
+      <div class="hero-right-card col-lg-4 col-md-12 py-5 bg-primary text-white text-center rounded">
+        <div class="d-flex flex-column justify-content-start align-items-start">
+          <h2>Why Choose Medilab?</h2>
+          <p class="text-start text-white">
+            Medilab is committed to providing reliable medical laboratory services with
+            advanced technology and accurate diagnostics. Our team ensures quality testing,
+            timely results, and trusted healthcare support for patients and professionals.
+            advanced technology and accurate diagnostics. Our team ensures quality testing,
+            timely results.
+          </p>
         </div>
         <a href="#" class="btn btn-light text-primary fw-bold mt-3">
           Learn More <i class="fa-solid fa-angle-right"></i>
@@ -24,47 +27,51 @@
       </div>
 
       <!-- Right Side (col-8) -->
-      <div class="col-lg-8 col-md-12 position-relative ">
-        <!-- Row with gap -->
+      <div class="col-lg-8 col-md-12 position-relative pt-5">
         <div class="row g-3">
+
           <!-- Card 1 -->
-          <div class="col-lg-4 col-md-6 col-sm-12 position-relative z-3">
-            <div class=" hero_card text-center bg-white py-4 px-5 rounded h-100  d-flex  flex-column justify-content-center align-items-center">
-              <i class="fas fa-clipboard fa-2x text-primary "></i>
-              <h4 class="text-dark">Corporis voluptates officia eiusmod</h4>
-              <p class="text-dark">
-               Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip
-              </p>
+            <div class="col-lg-4 col-md-6 col-sm-12 position-relative z-3 ">
+                <div class="hero_card text-center bg- py-4 px-5 rounded  h-100 d-flex flex-column justify-content-center align-items-center" style="background-color: rgba(245, 245, 245, 0.8);" >
+                <i class="fas fa-clipboard fa-2x text-primary"></i>
+                <h4 class="text-dark">Corporis voluptates officia eiusmod</h4>
+                <p class="text-dark">
+                    Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip
+                </p>
+                </div>
             </div>
-          </div>
+
           <!-- Card 2 -->
-           <div class="col-lg-4 col-md-6 col-sm-12 ">
-            <div class=" hero_card text-center bg-white py-4 px-5 rounded h-100  d-flex  flex-column justify-content-center align-items-center">
-              <i class="fas fa-briefcase fa-2x text-primary "></i>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="hero_card text-center bg-white py-4 px-5 rounded h-100 d-flex flex-column justify-content-center align-items-center">
+              <i class="fas fa-briefcase fa-2x text-primary"></i>
               <h4 class="text-dark">Labore consequatur incidid dolore</h4>
               <p class="text-dark">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
               </p>
             </div>
           </div>
+
           <!-- Card 3 -->
-           <div class="col-lg-4 col-md-6 col-sm-12 ">
-            <div class="hero_card text-center bg-white py-4 px-5 rounded h-100  d-flex  flex-column justify-content-center align-items-center">
-              <i class="fas fa-gem fa-2x text-primary "></i>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="hero_card text-center bg-white py-4 px-5 rounded h-100 d-flex flex-column justify-content-center align-items-center">
+              <i class="fas fa-gem fa-2x text-primary"></i>
               <h4 class="text-dark">Ullamco laboris ladore pan</h4>
               <p class="text-dark">
-               Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere
+                Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere
               </p>
             </div>
           </div>
+
         </div>
       </div>
 
     </div>
   </div>
 </section>
+
 <!-- About Section -->
-<section class="py-5">
+<section class="py-5" id="about">
   <div class="container">
     <div class="row">
 
@@ -114,118 +121,128 @@
   </div>
 </section>
 <!-- Stats Section -->
-<section class="py-5 bg-secondary">
+<section class="py-5" style="background: linear-gradient(135deg, #f0f4ff, #d9e6ff);">
   <div class="container text-center">
-    <div class="row g-3 justify-content-center">
+    <div class="row g-4 row-cols-1 row-cols-sm-2 row-cols-lg-4 justify-content-center">
 
       <!-- Doctors -->
-      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="col">
         <div class="bg-white text-dark p-5 rounded shadow h-100 hover-scale">
           <i class="fa-solid fa-user-doctor fa-2x text-primary mb-3"></i>
-          <h3>Doctors</h3>
+          <h3 class="h5 fw-bold">Doctors</h3>
+          <h2 class="counter text-primary" data-target="120">0</h2>
         </div>
       </div>
 
       <!-- Awards -->
-      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="col">
         <div class="bg-white text-dark p-5 rounded shadow h-100 hover-scale">
           <i class="fa-solid fa-award fa-2x text-primary mb-3"></i>
-          <h3>Awards</h3>
+          <h3 class="h5 fw-bold">Awards</h3>
+          <h2 class="counter text-primary" data-target="50">0</h2>
         </div>
       </div>
 
       <!-- Labs -->
-      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="col">
         <div class="bg-white text-dark p-5 rounded shadow h-100 hover-scale">
           <i class="fa-solid fa-flask fa-2x text-primary mb-3"></i>
-          <h3>Labs</h3>
+          <h3 class="h5 fw-bold">Labs</h3>
+          <h2 class="counter text-primary" data-target="30">0</h2>
         </div>
       </div>
 
       <!-- Departments -->
-      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="col">
         <div class="bg-white text-dark p-5 rounded shadow h-100 hover-scale">
           <i class="fa-solid fa-hospital fa-2x text-primary mb-3"></i>
-          <h3>Departments</h3>
+          <h3 class="h5 fw-bold">Departments</h3>
+          <h2 class="counter text-primary" data-target="15">0</h2>
         </div>
       </div>
 
     </div>
   </div>
 </section>
+
 {{-- services section  --}}
-<section>
-    <div class="container text-center py-5 px-4">
-        <h1>Services</h1>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-        <div class="row g-4 pt-5">
-       <!-- Service 1 -->
-       <div class="col-lg-4 col-md-6 service-div py-5 text-center shadow-sm border border-white">
-        <div class="service-item">
-          <div class="icon">
-            <i class="fas fa-heartbeat fa-2x text-primary p-2"></i>
+<section class="bg-light">
+  <div class="container text-center py-5 px-4" id="services">
+    <h1 class="mb-3 fw-bold">Our Services</h1>
+    <p class="mb-5 text-muted">We provide a wide range of medical lab services with the highest quality standards</p>
+
+    <div class="row g-4 pt-3">
+      <!-- Service 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card p-4 bg-white shadow rounded h-100">
+          <div class="icon-box mx-auto mb-3">
+            <i class="fas fa-heartbeat fa-2x text-primary"></i>
+          </div>
+          <h3 class="h5 fw-bold">Cardiology Tests</h3>
+          <p class="text-muted">Comprehensive heart and ECG testing with modern lab equipment for accurate results.</p>
         </div>
-          <h3>Nesciunt Mete</h3>
-          <p>Provident nihil minus qui consequatur non omnis maiores...</p>
-         </div>
-       </div>
+      </div>
 
       <!-- Service 2 -->
-      <div class="col-lg-4 col-md-6 service-div py-5 text-center shadow-sm border border-white">
-        <div class="service-item">
-          <div class="icon">
-            <i class="fas fa-heartbeat fa-2x text-primary p-2"></i>
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card p-4 bg-white shadow rounded h-100">
+          <div class="icon-box mx-auto mb-3">
+            <i class="fas fa-vials fa-2x text-primary"></i>
           </div>
-          <h3>Nesciunt Mete</h3>
-          <p>Provident nihil minus qui consequatur non omnis maiores...</p>
+          <h3 class="h5 fw-bold">Blood Tests</h3>
+          <p class="text-muted">Routine and specialized blood investigations ensuring fast and reliable reports.</p>
         </div>
       </div>
 
       <!-- Service 3 -->
-    <div class="col-lg-4 col-md-6 service-div py-5 text-center shadow-sm border border-white">
-        <div class="service-item">
-          <div class="icon">
-            <i class="fas fa-heartbeat fa-2x text-primary p-2"></i>
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card p-4 bg-white shadow rounded h-100">
+          <div class="icon-box mx-auto mb-3">
+            <i class="fas fa-x-ray fa-2x text-primary"></i>
           </div>
-          <h3>Nesciunt Mete</h3>
-          <p>Provident nihil minus qui consequatur non omnis maiores...</p>
+          <h3 class="h5 fw-bold">Radiology</h3>
+          <p class="text-muted">Advanced X-ray, ultrasound, and imaging services with precise diagnostics.</p>
         </div>
       </div>
-     {{--  services 4 --}}
-      <div class="col-lg-4 col-md-6 service-div py-5 text-center shadow-sm border border-white">
-        <div class="service-item">
-          <div class="icon">
-            <i class="fas fa-heartbeat fa-2x text-primary p-2"></i>
+
+      <!-- Service 4 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card p-4 bg-white shadow rounded h-100">
+          <div class="icon-box mx-auto mb-3">
+            <i class="fas fa-microscope fa-2x text-primary"></i>
           </div>
-          <h3>Nesciunt Mete</h3>
-          <p>Provident nihil minus qui consequatur non omnis maiores...</p>
+          <h3 class="h5 fw-bold">Pathology</h3>
+          <p class="text-muted">Detailed pathological analysis for accurate disease detection and monitoring.</p>
         </div>
       </div>
-      {{-- services --}}
-      <div class="col-lg-4 col-md-6 service-div py-5 text-center shadow-sm border border-white">
-        <div class="service-item">
-          <div class="icon">
-            <i class="fas fa-heartbeat fa-2x text-primary p-2"></i>
+
+      <!-- Service 5 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card p-4 bg-white shadow rounded h-100">
+          <div class="icon-box mx-auto mb-3">
+            <i class="fas fa-dna fa-2x text-primary"></i>
           </div>
-          <h3>Nesciunt Mete</h3>
-          <p>Provident nihil minus qui consequatur non omnis maiores...</p>
+          <h3 class="h5 fw-bold">DNA Testing</h3>
+          <p class="text-muted">Genetic and DNA analysis with international standard techniques and accuracy.</p>
         </div>
       </div>
-      {{-- services --}}
-      <div class="col-lg-4 col-md-6 service-div py-5 text-center shadow-sm border border-white border-5">
-        <div class="service-item">
-          <div class="icon">
-            <i class="fas fa-heartbeat fa-2x text-primary p-2"></i>
+
+      <!-- Service 6 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card p-4 bg-white shadow rounded h-100">
+          <div class="icon-box mx-auto mb-3 ">
+            <i class="fas fa-stethoscope fa-2x text-primary icon"></i>
           </div>
-          <h3>Nesciunt Mete</h3>
-          <p>Provident nihil minus qui consequatur non omnis maiores...</p>
+          <h3 class="h5 fw-bold">General Checkup</h3>
+          <p class="text-muted">Complete body checkup packages to monitor health and prevent future risks.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 {{-- section appointment --}}
-<section class="py-5">
+<section class="py-5" id="appointment">
   <div class="container">
     <h2 class="text-center mb-2">Appointment</h2>
     <p class="text-center mb-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
@@ -293,7 +310,7 @@
 </section>
 {{-- Departments section --}}
 <section>
-    <div class="container-fluid">
+    <div class="container-fluid" id="department">
         <div class="container py-5">
             <h1 class="text-center">Departments</h1>
             <p class="text-center">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
@@ -327,7 +344,7 @@
 </section>
 {{-- doctor section  --}}
 <section>
-  <div class="container-fluid py-5">
+  <div class="container-fluid py-5" id="doctors">
     <div class="container text-center dr_section">
       <h1>Doctors</h1>
       <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
@@ -439,145 +456,98 @@
 </section>
 {{-- accordian section --}}
 <section class="accordian_section">
-       <div class="container-fluid py-3 ">
-           <div class="container text-center">
-             <h2>Frequently Asked Questions</h2>
-             <p class="py-3">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-           <div class="accordion" id="accordionPanelsStayOpenExample">
-              {{-- accordion-item 1 --}}
-                  <div class="accordion-item bg-primary">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                        Non consectetur a erat nam at lectus urna duis?
-                       </button>
-                      </h2>
-                       <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                       <div class="accordion-body">
-                       Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                       </div>
-                       </div>
-                   </div>
-                   {{-- accordion-item 2 --}}
-                   <div class="accordion-item bg-primary">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                        Non consectetur a erat nam at lectus urna duis?
-                       </button>
-                      </h2>
-                       <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                       <div class="accordion-body">
-                       Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                       </div>
-                       </div>
-                   </div>
-                     {{-- accordion-item 3 --}}
-                   <div class="accordion-item bg-primary">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                        Non consectetur a erat nam at lectus urna duis?
-                       </button>
-                      </h2>
-                       <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                       <div class="accordion-body">
-                       Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                       </div>
-                       </div>
-                   </div>
-                    {{-- accordion-item 4 --}}
-                   <div class="accordion-item bg-primary">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                        Non consectetur a erat nam at lectus urna duis?
-                       </button>
-                      </h2>
-                       <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                       <div class="accordion-body">
-                       Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                       </div>
-                       </div>
-                   </div>
-                    {{-- accordion-item 5 --}}
-                   <div class="accordion-item bg-primary">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                        Non consectetur a erat nam at lectus urna duis?
-                       </button>
-                      </h2>
-                       <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                       <div class="accordion-body">
-                       Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                       </div>
-                       </div>
-                   </div>
-                   {{-- accordion-item 6 --}}
-                   <div class="accordion-item bg-primary">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                        Non consectetur a erat nam at lectus urna duis?
-                       </button>
-                      </h2>
-                       <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                       <div class="accordion-body">
-                       Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                       </div>
-                       </div>
-                   </div>
-                     {{-- accordion-item 7 --}}
-                   <div class="accordion-item bg-primary">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                        Non consectetur a erat nam at lectus urna duis?
-                       </button>
-                      </h2>
-                       <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                       <div class="accordion-body">
-                       Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                       </div>
-                       </div>
-                   </div>
-                    {{-- accordion-item 8 --}}
-                   <div class="accordion-item bg-primary">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                        Non consectetur a erat nam at lectus urna duis?
-                       </button>
-                      </h2>
-                       <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                       <div class="accordion-body">
-                       Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                       </div>
-                       </div>
-                   </div>
-                     {{-- accordion-item 9 --}}
-                   <div class="accordion-item bg-primary">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                        Non consectetur a erat nam at lectus urna duis?
-                       </button>
-                      </h2>
-                       <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                       <div class="accordion-body">
-                       Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                       </div>
-                       </div>
-                   </div>
-                       {{-- accordion-item 10 --}}
-                   <div class="accordion-item bg-primary">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                        Non consectetur a erat nam at lectus urna duis?
-                       </button>
-                      </h2>
-                       <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                       <div class="accordion-body">
-                       Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                       </div>
-                       </div>
-                   </div>
-              </div>
-         </div>
-     </div>
+  <div class="container-fluid py-3 ">
+    <div class="container text-center">
+      <h2>Lab Related Frequently Asked Questions</h2>
+      <p class="py-3">Find answers to the most common questions related to laboratory procedures and safety.</p>
+
+      <div class="accordion" id="accordionExample">
+
+        <!-- accordion-item 1 -->
+        <div class="accordion-item bg-primary text-white">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              What safety equipment is mandatory in the laboratory?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body text-dark">
+              Safety glasses, lab coats, and gloves are mandatory in most laboratories to ensure personal protection from chemical exposure and accidents.
+            </div>
+          </div>
+        </div>
+
+        <!-- accordion-item 2 -->
+        <div class="accordion-item bg-primary text-white">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              How should chemical waste be disposed of?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body text-dark">
+              Chemical waste must be collected in designated containers, labeled properly, and disposed of according to the lab’s hazardous waste management policy.
+            </div>
+          </div>
+        </div>
+
+        <!-- accordion-item 3 -->
+        <div class="accordion-item bg-primary text-white">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Why is calibration of lab instruments important?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body text-dark">
+              Calibration ensures accuracy and reliability of experimental results by aligning instruments with standard measurements.
+            </div>
+          </div>
+        </div>
+
+        <!-- accordion-item 4 -->
+        <div class="accordion-item bg-primary text-white">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              What should be done in case of a chemical spill?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body text-dark">
+              Immediately alert others, wear protective gear, contain the spill with absorbent material, and follow the lab’s spill response protocol.
+            </div>
+          </div>
+        </div>
+
+        <!-- accordion-item 5 -->
+        <div class="accordion-item bg-primary text-white">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              How can cross-contamination be prevented in the lab?
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body text-dark">
+              Always sterilize equipment before use, avoid mixing reagents, and work in designated clean areas to prevent cross-contamination.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
 </section>
+
 {{-- Testimonials section --}}
 <section>
   <div class="container-fluid">
@@ -719,8 +689,8 @@
 </section>
 
 {{-- contact section --}}
-<section>
-  <div class="container py-5">
+<section id="contact">
+  <div class="container py-5" >
     <div class="row">
       <!-- Left Column -->
       <div class="col-lg-4 col-md-12 py-5">
